@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="ui container"
+  data-testid="category-menu"
+>
+  <div
+    className="ui pointing menu"
+  >
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      General
+    </a>
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      Health
+    </a>
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      Business
+    </a>
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      Technology
+    </a>
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      Sports
+    </a>
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      Entertainment
+    </a>
+    <a
+      className="item"
+      onClick={[Function]}
+    >
+      Science
+    </a>
+    <div
+      className="right menu"
+    >
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <input
+          data-testid="search-input"
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Search..."
+          type="text"
+          value=""
+        />
+        <button
+          data-testid="search-button"
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="header-menu"
+>
+  <div
+    className="editionDetails"
+  >
+    <div>
+      <div>
+        Country:
+        <div
+          aria-expanded={false}
+          className="ui search selection dropdown"
+          data-testid="country-list"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            autoComplete="off"
+            className="search"
+            onChange={[Function]}
+            style={
+              Object {
+                "width": undefined,
+              }
+            }
+            tabIndex={0}
+            type="text"
+            value=""
+          />
+          <div
+            aria-atomic={true}
+            aria-live="polite"
+            className="text"
+            role="alert"
+          >
+            United Kingdom
+          </div>
+          <i
+            aria-hidden="true"
+            className="dropdown icon"
+            onClick={[Function]}
+          />
+          <div
+            className="menu transition"
+            role="listbox"
+          >
+            <div
+              aria-checked={true}
+              aria-selected={true}
+              className="active selected item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <i
+                className="gb flag"
+              />
+              <span
+                className="text"
+              >
+                United Kingdom
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <i
+                className="us flag"
+              />
+              <span
+                className="text"
+              >
+                USA
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <i
+                className="in flag"
+              />
+              <span
+                className="text"
+              >
+                India
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      Updated at: 
+      <time
+        data-testid="time-label"
+        dateTime={null}
+      >
+        Invalid date
+      </time>
+    </div>
+  </div>
+</div>
+`;
