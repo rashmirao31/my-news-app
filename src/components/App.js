@@ -20,10 +20,16 @@ class App extends React.Component {
 	    this.updateSearchText = this.updateSearchText.bind(this);
 	};
 
-	updateSelectedCountry(event, selectedCountryKey) {
+	updateSelectedCountry(selectedCountryKey) {
+	    let countryObj = window.defaultAppSettings.countryOptions.filter((option) => { 
+	      	if (option.key === selectedCountryKey) {
+	      		return option.text;
+	      	} return;
+	    });
+
 	    this.setState({
 	      currentSelectedCountryKey: selectedCountryKey,
-	      currentSelectedCountryName: event.target.textContent,
+	      currentSelectedCountryName: (countryObj && countryObj[0]) ? countryObj[0].text : "",
 	      currentSelectedCategory: window.defaultAppSettings.category,
 	      searchText: ''
 	    });

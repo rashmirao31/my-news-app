@@ -16,7 +16,7 @@ class CountryList extends React.Component {
     this.setState({
       selectedCountry: selectedCountry
     });
-    this.props.updateSelectedCountry(event, selectedCountry);
+    this.props.updateSelectedCountry(selectedCountry);
     this.props.updateSearchText('');
   };
 
@@ -30,7 +30,7 @@ class CountryList extends React.Component {
           placeholder={window.defaultAppSettings.countryMenuPlaceholder}
           search
           selection
-          value={this.state.selectedCountry}
+          defaultValue={this.state.selectedCountry}
           options={window.defaultAppSettings.countryOptions}
           onChange={this.handleChange}
         />

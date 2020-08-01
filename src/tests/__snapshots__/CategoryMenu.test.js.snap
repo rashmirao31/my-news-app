@@ -10,42 +10,49 @@ exports[`matches snapshot 1`] = `
   >
     <a
       className="item"
+      href="#"
       onClick={[Function]}
     >
       General
     </a>
     <a
       className="item"
+      href="#"
       onClick={[Function]}
     >
       Health
     </a>
     <a
       className="item"
+      href="#"
       onClick={[Function]}
     >
       Business
     </a>
     <a
       className="item"
+      href="#"
       onClick={[Function]}
     >
       Technology
     </a>
     <a
       className="item"
+      href="#"
       onClick={[Function]}
     >
       Sports
     </a>
     <a
       className="item"
+      href="#"
       onClick={[Function]}
     >
       Entertainment
     </a>
     <a
       className="item"
+      href="#"
       onClick={[Function]}
     >
       Science

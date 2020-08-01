@@ -62,36 +62,43 @@ class CategoryMenu extends React.Component {
 	      	<div className='ui container' data-testid='category-menu'>
 		        <Menu pointing>
 		          <Menu.Item
+		            href='#'
 		            name='general'
 		            active={activeItem === 'general'}
 		            onClick={this.handleItemClick}
 		          />
 		          <Menu.Item
+		            href='#'
 		            name='health'
 		            active={activeItem === 'health'}
 		            onClick={this.handleItemClick}
 		          />
 		          <Menu.Item
+		            href='#'
 		            name='business'
 		            active={activeItem === 'business'}
 		            onClick={this.handleItemClick}
 		          />
 		          <Menu.Item
+		            href='#'
 		            name='technology'
 		            active={activeItem === 'technology'}
 		            onClick={this.handleItemClick}
 		          />
 		          <Menu.Item
+		            href='#'
 		            name='sports'
 		            active={activeItem === 'sports'}
 		            onClick={this.handleItemClick}
 		          />
 		          <Menu.Item
+		            href='#'
 		            name='entertainment'
 		            active={activeItem === 'entertainment'}
 		            onClick={this.handleItemClick}
 		          />
 		          <Menu.Item
+		            href='#'
 		            name='science'
 		            active={activeItem === 'science'}
 		            onClick={this.handleItemClick}
