@@ -1,8 +1,8 @@
-###############################################################
+##########################################################################
 
-News App showing news from 3 countries (UK, USA, India)
+News App showing news from 3 countries (UK, USA, India) from newsapi.org
 
-###############################################################
+##########################################################################
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
